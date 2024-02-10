@@ -1,22 +1,22 @@
 @font-face{
     font-family: myfont;
-    src: url(images/HIROMISAKE.ttf);
+    src: url(HIROMISAKE.ttf);
     
 }
 @font-face {
     font-family:myfont2 ;
-    src: url(images/Neo\ Tech.ttf);
+    src: url(Neo\ Tech.ttf);
 }
 @font-face {
     font-family: myfont3;
-    src: url(images/Midorima-PersonalUse-Regular.ttf);
+    src: url(Midorima-PersonalUse-Regular.ttf);
 }
 
 
     
 
 body{
-    background-image: url('images/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: -500px;
 }
