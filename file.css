@@ -1,0 +1,225 @@
+@font-face{
+    font-family: myfont;
+    src: url(images/HIROMISAKE.ttf);
+    
+}
+@font-face {
+    font-family:myfont2 ;
+    src: url(images/Neo\ Tech.ttf);
+}
+@font-face {
+    font-family: myfont3;
+    src: url(images/Midorima-PersonalUse-Regular.ttf);
+}
+
+
+    
+
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: -500px;
+}
+    
+.anime-title{
+    color:orange;
+    font-family:myfont;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 100px;
+    display: block;
+}
+.genres{
+    text-align: left;
+    color: orange;
+    font-size: 70px;
+    margin-left: 30px;
+    display: block;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;
+    
+    
+
+}
+.romance {
+    margin-left: 35px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+div:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.1);
+    
+    
+}
+img:hover{
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.7);
+}
+.action {
+    width: 250px;
+    height: 215px;
+    margin-left: 35px;
+    display: inline-block;
+}
+div{
+    display: inline-block;
+   
+}
+p{
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    border-style: solid;
+    border-color: white;
+    width: 250px;
+    height: 215px;
+    border-radius: 15px;
+}
+
+.sports {
+    object-fit: contain;
+    display: inline-block;
+margin-left: 35px;
+object-fit: cover;}
+
+.comedy{
+    object-fit: contain;
+    display: inline-block;
+margin-left: 35px;
+object-fit: cover;
+}
+.thrillers{
+    object-fit: contain;
+    display: inline-block;
+margin-left: 35px;
+object-fit: cover;
+}
+.my-favourite{
+    text-align: center;
+    font-size: 100px ;
+    color:orange;
+    font-family: myfont2;
+    
+    
+}
+.horimiyatitle{
+text-align: center;
+font-size: 80px;
+color: red;
+font-family: myfont3;
+}
+.horimiya{
+    margin-left: 620px;
+    border-style: solid;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    width: 270px;
+    height: 350px;
+}
+.descriptionh{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    
+    
+    
+}
+.narutotitle{
+    text-align: center;
+font-size: 80px;
+color: red;
+font-family: myfont3;
+}
+.naruto{
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    margin-left: 550px;
+    width: 375px;
+    height: 300px;
+}
+.haikyuutitle{
+    text-align: center;
+font-size: 80px;
+color: red;
+font-family: myfont3;
+}
+.haikyuu{
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    margin-left: 620px;
+    width: 277px;
+    height: 350px;
+}
+.haikyuudescription{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+.onepunchmantitle{
+    text-align: center;
+font-size: 80px;
+color: red;
+font-family: myfont3;
+}
+.onepunchman{
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    margin-left: 550px;
+    width: 432px;
+    height: 390px;
+}
+.descriptiono{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+.descriptionn{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+.deathnotetitle{
+    text-align: center;
+font-size: 80px;
+color: red;
+font-family: myfont3;
+}
+.deathnote{
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    margin-left: 550px;
+    width: 350px;
+    height: 390px;
+}
+.descriptiond{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+button{
+    background-color: red;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 25px;
+        width: 104px;
+    height: 51px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    transform: scale(1.2);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.7);
+        }
